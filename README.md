@@ -2,9 +2,8 @@
 
 Ссылки:
 
-[Приложение Neva Trip App](https://neva-trip-layout-1.vercel.app/)
-
-[Репозиторий](https://github.com/koope79/neva-trip-layout_1)
+- [Приложение Neva Trip App](https://neva-trip-layout-1.vercel.app/)
+- [Репозиторий](https://github.com/koope79/neva-trip-layout_1)
 
 ## Task layout 2
 
