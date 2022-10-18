@@ -17,9 +17,12 @@
 ## Task JS 1
 
 Таблица `nevaorders`.
+
 ![Image text](https://github.com/koope79/neva-trip-tasks/blob/main/task_js_1/nevaorders_table.png)
 
 Таблица `ticketType`.
+
+![Image text](https://github.com/koope79/neva-trip-tasks/blob/main/task_js_1/tickettype_table.png)
 
 Из таблицы убраны поля, которые отвечают за цены и количество билетов для типов “Взрослый” и “Детский”. Добавлено поле ticket_type_id, которое ссылается на таблицу TicketType. Создана таблица TicketType с полями:
 - Id - идентификатор типа билета
