@@ -1,0 +1,65 @@
+body{
+    background-color: #d5eafc;
+    font-family: cursive;
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
+.wrapper {
+    background: #fafafe;
+    margin: 0 auto;
+    padding: 20px;
+    width: 375px;
+    height: 300px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -50%;
+
+    border:2px solid #ff6100;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
+}
+
+.wrapper h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ff6100;
+}
+
+.wrapper div {
+    margin-bottom: 15px;
+}
+
+.wrapper div:last-child {
+    margin-bottom: 0px;
+}
+
+.ticketBlock input{
+    width: 25px;
+}
+
+.buttonCalc {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed #ff6100;
+}
+
+.buttonCalc button {
+    border-radius: 4px;
+    background: linear-gradient(#ff6100, rgba(255, 80, 80, 1));
+    border: none;
+    color: white;
+    padding: 5px 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 12px;
+}

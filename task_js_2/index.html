@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div><h2>Расчёт стоимости поездки</h2></div>
+
+        <div class="routeBlock">
+            <span>Направление: </span>
+            <select name="route" id="route">
+                <option value="forward">из A в B</option>
+                <option value="backward">из B в A</option>
+                <option value="twoways">из A в B и обратно в А</option>
+            </select>
+        </div>
+
+        <div class="timeBlock">
+            <span>Выберите время: </span>
+            <select name="time_forward" id="time_forward"></select>
+            <select name="time_backward" id="time_backward"></select>
+        </div>
+
+        <div class="ticketBlock">
+            <label for="num">Количество билетов: </label>
+            <input id="num">
+        </div>
+
+        <div class="buttonCalc">
+            <button id="calc_button">Посчитать</button>
+        </div>
+
+        <div id="result"></div>
+
+    </div>
+</body>
+
+</html>
