@@ -30,4 +30,4 @@
 
 ## Task JS 2
 
-[Ссылка на рипозиторий](https://github.com/koope79/neva-trip-tasks/tree/main/task_js_2)
+[Ссылка на репозиторий](https://github.com/koope79/neva-trip-tasks/tree/main/task_js_2)
