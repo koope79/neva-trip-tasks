@@ -1,7 +1,9 @@
 ## Task layout 1
 
 Ссылки:
+
 [Приложение Neva Trip App](https://neva-trip-layout-1.vercel.app/)
+
 [Репозиторий](https://github.com/koope79/neva-trip-layout_1)
 
 ## Task layout 2
@@ -14,6 +16,11 @@
 
 ## Task JS 1
 
+Таблица `nevaorders`.
+![Image text](https://github.com/koope79/neva-trip-tasks/blob/main/task_js_1/nevaorders_table.png)
+
+Таблица `ticketType`.
+
 Из таблицы убраны поля, которые отвечают за цены и количество билетов для типов “Взрослый” и “Детский”. Добавлено поле ticket_type_id, которое ссылается на таблицу TicketType. Создана таблица TicketType с полями:
 - Id - идентификатор типа билета
 - Event_id - идентификатор события
@@ -23,4 +30,4 @@
 
 ## Task JS 2
 
-Ссылка
+[Ссылка на рипозиторий](https://github.com/koope79/neva-trip-tasks/tree/main/task_js_2)
